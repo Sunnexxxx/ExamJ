@@ -1,4 +1,4 @@
-# ExamJЫ
+# ExamJS
 const videoPath = document.getElementById('videoPath').value;: Получает значение,
 введенное пользователем, из элемента с идентификатором 'videoPath'. Это предполагает,
 что на вашей веб-странице есть текстовое поле ввода с идентификатором 'videoPath',
