@@ -46,6 +46,7 @@ function watchVideo() {
 
     const closeButton = document.createElement('button');
     closeButton.textContent = 'Закрыть видео';
+    closeButton.classList.add('closeButton');
     closeButton.addEventListener('click', function () {
         videoContainer.innerHTML = '';
     });
