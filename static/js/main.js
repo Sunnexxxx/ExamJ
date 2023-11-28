@@ -18,7 +18,7 @@ function downloadVideo() {
     });
 }
 
-function loadVideo() {
+function watchVideo() {
     const videoUrl = document.getElementById('videoUrl').value;
 
     if (!videoUrl) {
