@@ -66,4 +66,5 @@ function toggleTheme() {
     input.classList.toggle('dark-theme');
     const button = document.button;
     button.classList.toggle('dark-theme');
+    
 }
