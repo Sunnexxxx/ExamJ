@@ -1,47 +1,49 @@
-body {
+body.dark-theme {
     font-family: 'Arial', sans-serif;
     margin: 20px;
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: #333;
+    color: #fff;
     text-align: center;
 }
 
-h1 {
-    color: #333;
+h1.dark-theme {
     margin-bottom: 20px;
 }
 
-label {
+label.dark-theme {
     display: block;
     margin-bottom: 8px;
-    color: #555;
+    color: #ddd;
 }
 
-input {
+input.dark-theme {
     padding: 10px;
     margin: 8px;
     width: 300px;
     box-sizing: border-box;
-    border: 1px solid #ccc;
+    border: 1px solid #888;
     border-radius: 4px;
+    background-color: #555;
+    color: #fff;
 }
 
-button {
+button.dark-theme {
     height: 40px;
     padding: 12px 20px;
-    background-color: #4CAF50;
+    background-color: #007BFF;
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #45a049;
+button:hover.dark-theme {
+    background-color: #0056b3;
 }
 
 hr {
-    border: 1px solid #ddd;
+    border: 1px solid #666;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -50,8 +52,8 @@ hr {
     margin-top: 20px;
 }
 
-.main{
-    margin-left: 300px ;
+.main {
+    margin-left: 300px;
     width: 60%;
     height: auto;
     display: flex;
@@ -67,6 +69,3 @@ hr {
     color: #fff;
     padding: 10px 20px;
 }
-
-
-

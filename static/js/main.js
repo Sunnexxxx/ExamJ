@@ -7,7 +7,7 @@ function downloadVideo() {
         data: {videoPath: videoPath},
         success: function (response) {
             if (response.success) {
-                alert('Видео успешно скачано');
+                alert('Видео успешно сохранения');
             } else {
                 alert('Ошибка скачивания видео: ' + response.error_message);
             }
@@ -17,6 +17,7 @@ function downloadVideo() {
         }
     });
 }
+
 
 function watchVideo() {
     const videoUrl = document.getElementById('videoUrl').value;
@@ -56,4 +57,13 @@ function watchVideo() {
 function getVideoId(url) {
     const match = url.match(/[?&]v=([^&]+)/);
     return match && match[1] ? match[1] : null;
+}
+
+function toggleTheme() {
+    const body = document.body;
+    body.classList.toggle('dark-theme');
+    const input = document.input;
+    input.classList.toggle('dark-theme');
+    const button = document.button;
+    button.classList.toggle('dark-theme');
 }
