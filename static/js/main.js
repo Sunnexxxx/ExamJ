@@ -62,9 +62,4 @@ function getVideoId(url) {
 function toggleTheme() {
     const body = document.body;
     body.classList.toggle('dark-theme');
-    const input = document.input;
-    input.classList.toggle('dark-theme');
-    const button = document.button;
-    button.classList.toggle('dark-theme');
-    
 }
